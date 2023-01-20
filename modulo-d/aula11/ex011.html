@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+    <style>
+        body{
+            color: black;
+            font-size: 15px;
+        }
+        h1{ 
+            text-align: center;
+            background-color: rgba(128, 128, 128, 0.25);
+        }
+        p{
+            display: inline-block;
+            text-align: center;
+        }
+        div{
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Você é estrangeiro?</h1>
+     <p id="1">Qual é o seu país?</p> <input type="text" name="txtpais" alt="caixa de texto" id="txtpais">
+     <input type="button" value="Verificar" alt="butão para testar" onclick="testar()">
+     <div alt="Aqui vão as respostas" id="res">
+
+     </div>
+     <script>
+        function testar(){
+            var txtp = window.document.querySelector('input#txtpais')
+            var res = window.document.querySelector('div#res')
+            var pais = String(txtp.value)
+            res.innerHTML = `<p>Vivendo em <strong>${pais}</strong></p>`
+            if (pais=='Brasil'){
+                res.innerHTML += `<p>Você é Brasileiro!</p>`
+            } else {
+                res.innerHTML += `<p>Você é Estrangeiro!</p>`
+            }
+        }
+     </script>
+</body>
+</html>
