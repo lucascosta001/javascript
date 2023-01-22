@@ -1,1 +1,1 @@
-alert('Hello!')lçk~lçk
+alert('Hello!')
