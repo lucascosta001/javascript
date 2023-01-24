@@ -1,6 +1,7 @@
 body {
     background-color: rgb(141, 232, 202);
     font: normal 15pt arial;
+    size: auto; 
 }
 
 header {
@@ -21,6 +22,5 @@ section {
 footer {
     color: white;
     text-align: center;
-
     font-style: italic;
 }
