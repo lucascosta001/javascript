@@ -9,8 +9,7 @@ header {
 }
 
 section {
-    background-color: white;
-    color: black;
+    background: white;
     border-radius: 10px;
     padding: 15px;
     width: 500px;
@@ -18,16 +17,13 @@ section {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.338);
 }
 
+div {
+    text-align: center;
+    padding: 10px;
+}
+
 footer {
     color: white;
     text-align: center;
-
     font-style: italic;
 }
-/*
-cor manhã accae1
-
-cor tarde fed501
-
-cor noite 6d8ac4
-*/
