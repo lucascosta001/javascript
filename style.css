@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(171, 170, 170, 0.497);
+}
+
+h1 {
+    text-align: center;
+} 
+
+h2 {
+    padding: 15px 0px 0px 15px;
+    
+}
+
+section {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.361);
+}
+
+
+
+p {
+    margin: 8px;
+}
+
+footer {
+    text-align: center;
+}
