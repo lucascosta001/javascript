@@ -18,13 +18,13 @@ section {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.338);
 }
 
-p#pfim{
-    margin-top: 1px;
+select#lista {
+    width: 150px;
+    margin-top: 25px;
 }
 
 footer {
     color: white;
     text-align: center;
-
     font-style: italic;
 }
