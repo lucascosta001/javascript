@@ -1,0 +1,12 @@
+section{
+    background-color: aliceblue;
+
+}
+
+p{
+    background-color: rgba(71, 71, 255, 0.445);
+    display: inline-block;
+    margin: 15px;
+    padding: 5px;
+}
+
