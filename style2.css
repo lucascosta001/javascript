@@ -59,11 +59,11 @@ nav{
 
 nav a{
     float: left;
-    color: white;
     text-align: center;
-    padding: 10px 12px;
+    padding: 4px 4px;
     text-decoration: none;
     border-radius: 90px;
+    font-size: 40px;
 }
 
 nav a:hover{
@@ -90,13 +90,12 @@ nav a.ativo{
 section{
     background-color: var(--cor9);
     margin: auto;
-    max-width: 900px;
+    max-width: 950px;
     text-align: center;
 }
 
 section#contador{
     text-align: center;
-    margin: auto;
 }
 
 .calculadora{
