@@ -35,9 +35,9 @@
             var txtp = window.document.querySelector('input#txtpais')
             var res = window.document.querySelector('div#res')
             var pais = String(txtp.value)
-            res.innerHTML = `<p>Vivendo em <strong>${pais}</strong></p>`
-            if (pais=='Brasil'){
-                res.innerHTML += `<p>Você é Brasileiro!</p>`
+            res.innerHTML = `<p>Vivendo em <strong>${pais}</strong>!</p>`
+            if (pais == 'brasil' || 'Brasil'){
+                res.innerHTML += ` <p>TVocê é Brasileiro!</p>`
             } else {
                 res.innerHTML += `<p>Você é Estrangeiro!</p>`
             }
