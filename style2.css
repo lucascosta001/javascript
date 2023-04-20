@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Sarala:wght@400;700&display=swap');
+:root{
+
+    --cor1: #92c4ca;
+    --cor2: #04ADBF;
+    --cor3: #F2A663;
+    --cor4: #F28705;
+    --cor5: #3e3d3d;
+
+
+    --fonte-padrao: 'Sarala', sans-serif;
+    --fonte-destaque: 'Modak', cursive;
+
+    --cor6: #e6e4ce;
+    --cor7: #ede3e9;
+    --cor8: #bccce0;
+    --cor9: #2DBA92;
+    --cor10: #bdb8b88c;
+} 
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--cor6);
+    margin: auto;
+}
+
+header{
+    background-color: var(--cor10);
+    padding: 15px;
+    text-align: center;
+}
+
+main{
+    height: 100%;
+}
+
+h1{ 
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+}
+
+h2{
+    font-family: var(--fonte-padrao);
+    color: var(--cor2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.477);
+    font-size: 2.3em;
+    text-align: center;   
+}
+
+nav{
+    overflow: hidden;
+    background-color: var(--cor10);
+}
+
+nav a{
+    float: left;
+    text-align: center;
+    padding: 4px 4px;
+    text-decoration: none;
+    border-radius: 90px;
+    font-size: 40px;
+}
+
+nav a:hover{
+    background-color: var(--cor10);
+    color: blue;
+}
+
+nav a.ativo{
+    background-color: red;
+    color: white;
+}
+
+/* p.buttonvoltar{
+    display: inline-block;
+    -webkit-user-select: none;
+    margin: auto;
+    background-color: var(--cor4);
+    transition: background-color 300ms;
+    border-radius: 20px;
+    padding: 2px;
+    text-align: center;
+} */
+
+section{
+    background-color: var(--cor9);
+    margin: auto;
+    max-width: 950px;
+    
+}
+
+section#contador{
+    text-align: center;
+}
+
+.itens{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 30px;
+    padding: 30px 10px;
+}
+
+section.console{
+    background-color: white;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.432);
+    border-radius: 10px;
+    width: 400px;
+    min-height: 350px;
+    padding: 15px;
+}
+
+table{
+    padding-left: 5px;
+}
+
+.calculadora__btn{
+    width: 70px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: var(--cor4);
+}
+.calculadora__btn:hover{
+    background-color: var(--cor3);
+    color: #ffffff;
+}
+#resultado{
+    box-sizing: border-box;
+    text-align: center;    
+    margin-left: 29px;
+    margin-right: 32px;
+    background-color: var(--cor3);
+    font-size: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+} 
+
+footer{
+    color: white;
+    background-color: rgb(165, 149, 149);
+    text-align: center;
+    padding: 10px;
+}

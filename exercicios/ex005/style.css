@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Sarala:wght@400;700&display=swap');
+:root{
+
+    --cor1: #92c4ca;
+    --cor2: #04ADBF;
+    --cor3: #F2A663;
+    --cor4: #F28705;
+    --cor5: #3e3d3d;
+
+
+    --fonte-padrao: 'Sarala', sans-serif;
+    --fonte-destaque: 'Modak', cursive;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    margin-left: 15px;
+    font-family: var(--fonte-padrao);
+    color: var(--cor2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.477);
+    font-size: 2.3em;
+    text-align: center;
+    padding-bottom: 20px;   
+}
+
+#calculadora{
+    width: 400px;
+    background-color: #ffffff;
+    padding: 15px;         
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.553);
+}
+
+table{
+    padding-left: 5px;
+}
+
+.calculadora__btn{
+    width: 80px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: var(--cor4);
+}
+.calculadora__btn:hover{
+    background-color: var(--cor3);
+    color: #ffffff;
+}
+#resultado{
+    box-sizing: border-box;
+    text-align: center;    
+    margin-left: 29px;
+    margin-right: 32px;
+    background-color: var(--cor3);
+    font-size: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+} 

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        
+        <h1>Exercícios de JavaScript</h1>
+    </header>
+    <nav>
+         <p class="ativo"><a href="index.html">	&#x1F519</a></p>
+    </nav>
+
+   <section class="itens">
+        <!-- Verificador -->
+        <section id="nasc" class="console">
+            <h2>Verificador de Idade</h2>
+            <div>
+                <p>Ano de Nascimento:
+                    <input type="number" name="txtano" id="txtano" min="0">
+                </p>
+                <p>Sexo:
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <label for="mas">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+                <p>
+                    <input type="button" value="Vereficar" onclick="verificar()">
+                </p>
+            </div>
+            <!-- Resultado -->
+            <div id="resverif" >
+                Preencha os dados acima para ver o resultado!
+            </div>
+            <img src="exercicios/ex002/fotos/" alt="" srcset="">
+        </section>
+
+        <!-- Contador -->
+        <section id="contador" class="console">
+            <h2>Contador</h2>
+            <div >
+                <p id="estru">Inicio: <input type="number" name="inicio" id="txti"></p>
+                <p id="estru">Fim: <input type="number" name="fim" id="txtf"></p>
+                <p>Passo: <input type="number" name="cont" id="txtp"></p>
+    
+                <input type="button" value="Contar" onclick="contar()">
+            </div>
+            <!-- Resultado -->
+            <div id="rescont">
+                <p>Preparando a contagem...</p>
+            </div>
+        </section>
+
+        <!-- Tabuada -->
+        <section id="tabuada" class="console">
+            <h2>Tabuada</h2>
+            <div>
+                <p>Numero: <input type="number" name="txtnum" id="txtnum">
+                <input type="button" value="Gerar Tabuada" 
+    onclick="gerar()" id="gerar"></p>
+            </div>
+            <!-- Resultado -->
+            <div id="restabu">  
+                <select name="tabuada" id="seltab" size="10">
+                    <option>Digie um número acima</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Calculadora -->
+        <section id="calculadora" class="console">
+            <h2>Calculadora</h2>
+            <!-- Resultado -->
+            <p id="resultado"></p>
+            <table>
+                <tbody><tr>
+                    <td><button class="calculadora__btn" onclick="clean()">C</button></td>
+                    <td><button class="calculadora__btn" onclick="back('')">&lt;</button></td>
+                    <td><button class="calculadora__btn" onclick="insert('/')">/</button></td>
+                    <td><button class="calculadora__btn" onclick="insert('*')">X</button></td>
+                </tr>
+                <tr>
+                    <td><button class="calculadora__btn" onclick="insert('7')">7</button></td>
+                    <td><button class="calculadora__btn" onclick="insert('8')">8</button></td>
+                    <td><button class="calculadora__btn" onclick="insert('9')">9</button></td>
+                    <td><button class="calculadora__btn" onclick="insert('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="calculadora__btn" onclick="insert('4')">4</button></td>
+                    <td><button class="calculadora__btn" onclick="insert('5')">5</button></td>
+                    <td><button class="calculadora__btn" onclick="insert('6')">6</button></td>
+                    <td><button class="calculadora__btn" onclick="insert('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="calculadora__btn" onclick="insert('1')">1</button></td>
+                    <td><button class="calculadora__btn" onclick="insert('2')">2</button></td>
+                    <td><button class="calculadora__btn" onclick="insert('3')">3</button></td>
+                    <td rowspan="2"><button class="calculadora__btn" style="height: 106px;" onclick="calcular()">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="calculadora__btn" style="width: 166px;" onclick="insert('0')">0</button></td>
+                    <td><button class="calculadora__btn" onclick="insert('.')">.</button></td>
+                </tr>
+
+            </tbody></table>
+        </section>
+    </section>
+    
+    <footer>
+        <p>&copy; Lucas Alan </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
