@@ -1,18 +1,19 @@
 body {
     background-color: rgba(171, 170, 170, 0.497);
+    font-size: 15pt;
 }
 
 h1 {
     text-align: center;
 } 
 
-/* h2 {
-    
-} */
+a{
+    text-decoration: none;
+}
 
 section {
     background-color: white;
-    width: 600px;
+    min-width: 300px;
     margin: auto;
     border-radius: 8px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.361);
@@ -35,4 +36,14 @@ p {
 
 footer {
     text-align: center;
+}
+
+a, a:visited {
+    color: rgb(34, 34, 34);
+    font-weight: bolder;
+}
+
+a:hover {
+    color: darkgoldenrod;
+    text-decoration: none;
 }
