@@ -7,14 +7,6 @@ h1 {
     text-align: center;
 } 
 
-h2{
-    color: darkgoldenrod;
-}
-
-a{
-    text-decoration: none;
-}
-
 section {
     background-color: white;
     min-width: 300px;
@@ -25,34 +17,28 @@ section {
     padding: 15px;
 }
 
-table, th, tr, td {
-    width: 500px;
-    border: 1px solid black;
-    border-collapse: collapse; 
-    padding: 8px;
-    text-align: center;
-    margin: auto;
+h2{
+    color: darkgoldenrod;
 }
-
 
 p {
     margin: 8px;
 }
 
-a {
-    color: black;
-} 
-
-footer {
-    text-align: center;
-}
-
 a, a:visited {
     color: rgb(34, 34, 34);
-    font-weight: bolder;
+    font-weight: bolder; 
 }
 
 a:hover {
     color: darkgoldenrod;
     text-decoration: none;
+}
+
+.desafio{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
 }
