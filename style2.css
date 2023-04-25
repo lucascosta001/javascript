@@ -1,22 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&family=Sarala:wght@400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
 :root{
 
-    --cor1: #92c4ca;
-    --cor2: #04ADBF;
-    --cor3: #F2A663;
-    --cor4: #F28705;
-    --cor5: #3e3d3d;
-
+    --cor1: #04ADBF;
+    --cor2: #2DBA92;
+    --cor3: #bdb8b8e7;
+    --cor4: #e6e4ce;
 
     --fonte-padrao: 'Sarala', sans-serif;
-    --fonte-destaque: 'Modak', cursive;
-
-
-    --cor6: #e6e4ce;
-    --cor7: #ede3e9;
-    --cor8: #bccce0;
-    --cor9: #2DBA92;
-    --cor10: #bdb8b88c;
+    --fonte-h1: 'Cairo';
 } 
 
 *{
@@ -25,14 +20,16 @@
 }
 
 body{
-    background-color: var(--cor6);
+    /* background-color: var(--cor4); */
+    background-image: url(imagem/opi3.gif);
     margin: auto;
 }
 
 header{
-    background-color: var(--cor10);
-    padding: 15px;
+    background-color: var(--cor3);
+    padding: 5px;
     text-align: center;
+    height: 40px;
 }
 
 main{
@@ -43,11 +40,12 @@ h1{
     text-align: center;
     display: inline-block;
     margin: 15px;
+    font-family: var(--fonte-h1);
 }
 
 h2{
     font-family: var(--fonte-padrao);
-    color: var(--cor2);
+    color: var(--cor1);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.477);
     font-size: 2.3em;
     text-align: center;   
@@ -55,8 +53,9 @@ h2{
 
 nav{
     overflow: hidden;
-    background-color: var(--cor10);
+    background-color: var(--cor3);
     padding: 6px;
+    padding-left: 30px;
 }
 
 nav a{
@@ -70,7 +69,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: var(--cor10);
+    background-color: var(--cor3);
     color: blue;
 }
 
@@ -80,7 +79,7 @@ nav a.ativo{
 }
 
 section{
-    background-color: var(--cor9);
+    background-color: var(--cor2);
     margin: auto;
     max-width: 950px;
 }
@@ -120,11 +119,11 @@ table{
     cursor: pointer;
     border-radius: 5px;
     border: none;
-    color: var(--cor4);
+    color: var(--cor9);
 }
 
 .calculadora__btn:hover{
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     color: #ffffff;
 }
 
@@ -133,7 +132,7 @@ table{
     text-align: center;    
     margin-left: 29px;
     margin-right: 32px;
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     font-size: 30px;
     border-radius: 5px;
     font-weight: bold;
