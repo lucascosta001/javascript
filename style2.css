@@ -20,7 +20,7 @@
 }
 
 body{
-    /* background-color: var(--cor4); */
+    background-color: var(--cor4);
     background-image: url(imagem/opi3.gif);
     margin: auto;
 }
