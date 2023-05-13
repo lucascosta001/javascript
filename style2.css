@@ -51,6 +51,19 @@ h2{
     text-align: center;   
 }
 
+#analizador{
+    font-size: 1.4em;
+}
+
+.analiza{
+    display: inline-block;
+    font-size: 7%;
+}
+
+#resposta{
+    display: ;
+}
+
 nav{
     overflow: hidden;
     background-color: var(--cor3);
@@ -86,6 +99,11 @@ section{
 
 section#contador{
     text-align: center;
+}
+
+select#lista {
+    width: 150px;
+    margin-top: 25px;
 }
 
 .itens{
