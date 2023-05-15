@@ -57,11 +57,11 @@ h2{
 
 .analiza{
     display: inline-block;
-    font-size: 7%;
+    font-size: 14px;
 }
 
 #resposta{
-    display: ;
+    display: block;
 }
 
 nav{
