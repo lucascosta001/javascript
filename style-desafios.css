@@ -25,11 +25,41 @@ body{
     margin: auto;
 }
 
-header{
+.container{
     background-color: var(--cor3);
+}
+
+header{
     padding: 5px;
     text-align: center;
     height: 40px;
+}
+
+nav{
+    display: flex;
+    margin-top: 13px;
+    padding: 6px;
+    padding-left: 30px;
+}
+
+nav a{
+    float: left;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover{
+    background-color: var(--cor3);
+    color: blue;
+}
+
+nav a.ativo{
+    background-color: red;
+    color: white;
 }
 
 main{
@@ -62,33 +92,6 @@ h2{
 
 #resposta{
     display: block;
-}
-
-nav{
-    overflow: hidden;
-    background-color: var(--cor3);
-    padding: 6px;
-    padding-left: 30px;
-}
-
-nav a{
-    float: left;
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 15pt;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-nav a:hover{
-    background-color: var(--cor3);
-    color: blue;
-}
-
-nav a.ativo{
-    background-color: red;
-    color: white;
 }
 
 section{
