@@ -42,6 +42,15 @@ p {
     text-align: center;
 }
 
+.meugithub{
+    text-align: end;
+    margin-right: 60px;
+}
+
+a + a{
+    margin: 20;
+}
+
 footer {
     text-align: center;
 }
