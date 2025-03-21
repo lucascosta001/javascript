@@ -25,16 +25,22 @@ h1 {
 }
 
 nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 99.1%;
     height: 2.4vw;
     padding: 6px;
     background-color: var(--cor1); 
     box-shadow: 2px 3px 5px #74747493;
-    align-items: center;
+}
+
+nav p{
+    display: inline-block;
+    margin: 0 10px;
 }
 
 nav a{
-    float: left;
     text-align: center;
     padding: 4px;
     text-decoration: none;
@@ -84,18 +90,7 @@ ul > li {
     text-align: center;
 }
 
-.meudados{
-    text-align: end;
-    margin-right: 60px;
-}
-
 footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     text-align: center;
-}
-
-.foot{
-    width: 33.3%;
+    margin: 5px;
 }
