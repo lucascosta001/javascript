@@ -76,6 +76,10 @@ ul {
     margin: 8px;
 }
 
+ul > li {
+    margin: 1vw 1vw 1.4vw 3vw;
+}	
+
 .desafio{
     text-align: center;
 }
@@ -83,10 +87,6 @@ ul {
 .meudados{
     text-align: end;
     margin-right: 60px;
-}
-
-a + a{
-    margin: 20px;
 }
 
 footer {
