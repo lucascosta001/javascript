@@ -12,7 +12,7 @@
 
 body {
     background-color: rgba(134, 134, 134, 0.497);
-    font-size: 15pt;
+    font-size: 1.3vw;
 }
 
 
@@ -28,8 +28,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 99.1%;
-    height: 2.4vw;
+    width: 99.2%;
     padding: 6px;
     background-color: var(--cor1); 
     box-shadow: 2px 3px 5px #74747493;
@@ -66,10 +65,9 @@ a:hover {
 
 section {
     background-color: white;
-    min-width: 300px;
-    max-width: 600px;
+    width: 50vw;
     margin: 10px auto 20px auto;
-    border-radius: 8px;
+    border-radius: 30px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.361);
     padding: 30px;
 }
