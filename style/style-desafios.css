@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&family=Sarala:wght@400;700&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
-
 :root{
 
     --cor1: #04ADBF;
@@ -21,7 +18,7 @@
 
 body{
     background-color: var(--cor4);
-    background-image: url(imagem/opi3.gif);
+    background-image: url(../imagem/opi3.gif);
     margin: auto;
 }
 
@@ -85,34 +82,13 @@ p{
     text-align: justify;
 }
 
-#analizador{
-    font-size: 1.4em;
-}
-
-.analiza{
-    display: inline-block;
-    font-size: 14px;
-}
-
-#resposta{
-    display: block;
-}
-
 section{
     background-color: var(--cor2);
     margin: auto;
     max-width: 950px;
 }
 
-section#contador{
-    text-align: center;
-}
-
-select#lista {
-    width: 150px;
-    margin-top: 25px;
-}
-
+/* geral */
 .itens{
     display: flex;
     justify-content: space-evenly;
@@ -130,39 +106,6 @@ section.console{
     min-height: 350px;
     padding: 15px;
 }
-
-table{
-    padding-left: 5px;
-}
-
-.calculadora__btn{
-    width: 70px;
-    height: 40px;
-    font-size: 25px;
-    font-weight: bolder;
-    margin: 2px;
-    cursor: pointer;
-    border-radius: 5px;
-    border: none;
-    color: var(--cor9);
-}
-
-.calculadora__btn:hover{
-    background-color: var(--cor2);
-    color: #ffffff;
-}
-
-#resultado{
-    box-sizing: border-box;
-    text-align: center;    
-    margin-left: 29px;
-    margin-right: 32px;
-    background-color: var(--cor2);
-    font-size: 30px;
-    border-radius: 5px;
-    font-weight: bold;
-    color: #ffffff;
-} 
 
 footer{
     display: flex;

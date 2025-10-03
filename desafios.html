@@ -5,7 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercícios</title>
-    <link rel="stylesheet" href="style-desafios.css">
+    <link rel="stylesheet" href="style/style-desafios.css">
+
+    <link rel="stylesheet" href="style/verificadoridade.css">
+    <link rel="stylesheet" href="style/contador.css">
+    <link rel="stylesheet" href="style/tabuada.css">
+    <link rel="stylesheet" href="style/analizador.css">
+    <link rel="stylesheet" href="style/calculadora.css">
+    <link rel="stylesheet" href="style/fatorial.css">
+    <link rel="stylesheet" href="style/jogo-da-velha.css">
+
     <link rel="shortcut icon" href="imagem/favicon.png" type="image/x-icon">
 </head>
 <body>
@@ -137,6 +146,34 @@
                 <p>O Fatorial é um recurso ultilizado na matemática, é usado como uma forma de simplificar uma multiplicação de um número x até 1. Por exemplo: 7! => 7 x 6 x 5 x 4 x 3 x 2 x 1 = 5040</p>
             </div>
         </section>
+        <!-- jogo da velha -->
+        <section id="jogo-da-velha" class="console">
+            <h2>Jogo da Velha</h2>
+            <button onclick="startGame()">Iniciar Jogo</button>
+            <span id="jogador-atual"></span>
+            <div id="tabuleiro">
+                <div class="linha">
+                    <div class="celula" onclick="jogar(0)"></div>
+                    <div class="celula" onclick="jogar(1)"></div>
+                    <div class="celula" onclick="jogar(2)"></div>
+                </div>
+                <div class="linha">
+                    <div class="celula" onclick="jogar(3)"></div>
+                    <div class="celula" onclick="jogar(4)"></div>
+                    <div class="celula" onclick="jogar(5)"></div>
+                </div>
+                <div class="linha">
+                    <div class="celula" onclick="jogar(6)"></div>
+                    <div class="celula" onclick="jogar(7)"></div>
+                    <div class="celula" onclick="jogar(8)"></div>
+                </div>
+            </div>
+            <p id="resultado-jogo"></p>
+        </section>
+        <section class="console">
+            <h2>Em breve mais desafios...</h2>
+            <p>Estou sempre buscando novos desafios para aprimorar meus conhecimentos em JavaScript. Fique atento para futuras atualizações!</p>
+        </section>
     </section>
     <footer>
         <p>&copy; Lucas Alan </p>
@@ -147,5 +184,6 @@
     <script src="desafioshtml/contador.js"></script>
     <script src="desafioshtml/verificador.js"></script>
     <script src="desafioshtml/fatorial.js"></script>
+    <script src="desafioshtml/jogo-da-velha.js"></script>
 </body>
 </html>
