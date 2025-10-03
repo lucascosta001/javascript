@@ -150,23 +150,10 @@
         <section id="jogo-da-velha" class="console">
             <h2>Jogo da Velha</h2>
             <button onclick="startGame()">Iniciar Jogo</button>
+            <button onclick="resetGame()">Reiniciar Jogo</button>
             <span id="jogador-atual"></span>
             <div id="tabuleiro">
-                <div class="linha">
-                    <div class="celula" onclick="jogar(0)"></div>
-                    <div class="celula" onclick="jogar(1)"></div>
-                    <div class="celula" onclick="jogar(2)"></div>
-                </div>
-                <div class="linha">
-                    <div class="celula" onclick="jogar(3)"></div>
-                    <div class="celula" onclick="jogar(4)"></div>
-                    <div class="celula" onclick="jogar(5)"></div>
-                </div>
-                <div class="linha">
-                    <div class="celula" onclick="jogar(6)"></div>
-                    <div class="celula" onclick="jogar(7)"></div>
-                    <div class="celula" onclick="jogar(8)"></div>
-                </div>
+                
             </div>
             <p id="resultado-jogo"></p>
         </section>

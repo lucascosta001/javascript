@@ -88,7 +88,6 @@ section{
     max-width: 950px;
 }
 
-/* geral */
 .itens{
     display: flex;
     justify-content: space-evenly;
